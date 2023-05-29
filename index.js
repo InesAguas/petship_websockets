@@ -39,6 +39,6 @@ io.on('connection', (socket) => {
   });
 
 server.listen(8080, () => {
-  //console.log('listening on *:3000');
+  console.log('Listening on http://0.0.0.0:8080');
 });
 
