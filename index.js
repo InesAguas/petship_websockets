@@ -7,7 +7,7 @@ const { Server } = require("socket.io");
 const io = require('socket.io')(server, {
     allowEIO3: true,
     cors: {
-      origin: 'https://petship-8xfjf.ondigitalocean.app',
+      origin: ['https://petship-8xfjf.ondigitalocean.app', 'http://petship.pt'],
       methods: ['GET', 'POST', 'OPTIONS'],
       credentials: true
     }
